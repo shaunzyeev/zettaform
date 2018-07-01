@@ -2,5 +2,9 @@
 .tfvars
 .git
 main.tf
+<<<<<<< HEAD
 *.backup
 *.tfstate
+=======
+.tfstate*
+>>>>>>> 8594b30438b879634b6214d54898d5406bf7764c
