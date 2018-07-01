@@ -2,3 +2,4 @@
 .tfvars
 .git
 main.tf
+.tfstate*
