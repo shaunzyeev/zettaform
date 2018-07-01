@@ -7,6 +7,11 @@
 - Add the auth.tf file 
 - Run this command 
 `terraform init`
+- Once main.tf created 
+`terraform plan`
+- Once Verified 
+`terraform apply`
+
 
 ## Refere this document for further resourse.
 https://www.terraform.io/docs/providers/aws/
