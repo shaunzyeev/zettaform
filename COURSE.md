@@ -1,6 +1,7 @@
 ## AWS Course Structure
 
 ### VPC
+
 -  IP Address
 -  VPC
 -  Subnet
@@ -15,6 +16,7 @@
 -  VPN
 
 ### IAM
+
 -  Groups
 -  Users
 -  Roles
