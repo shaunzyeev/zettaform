@@ -1,4 +1,5 @@
-# AWS Course Structure
+## AWS Course Structure
+
 ### VPC
 -  IP Address
 -  VPC
@@ -14,4 +15,12 @@
 -  VPN
 
 ### IAM
+-  Groups
+-  Users
+-  Roles
+-  Policy
+-  Identity providers
+-  ARN
+-  Policy Generator
+
 ### EC2
