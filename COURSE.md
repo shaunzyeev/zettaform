@@ -1,5 +1,11 @@
 ## AWS Course Structure
 
+### What is Cloud ? 
+
+### Introduction to Cloud.
+
+### About AWS ( Amazon Web Service)
+
 ### VPC
 
 -  IP Address
@@ -14,6 +20,7 @@
 -  DNS
 -  Endpoint
 -  VPN
+-  EIP
 
 ### IAM
 
@@ -24,5 +31,21 @@
 -  Identity providers
 -  ARN
 -  Policy Generator
+-  Encryption Keys ( KMS )
 
 ### EC2
+
+    #### Instances
+    -   Ondemand Instance
+    -   Spot Instances
+    -   Reserved Instances
+    -   Dedicated Instanes
+
+    #### Images
+    -   AMI
+    #### Storage 
+    -   EBS
+    -   Snapshots
+
+
+
