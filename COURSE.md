@@ -35,17 +35,17 @@
 
 ### EC2
 
-    #### Instances
-    -   Ondemand Instance
-    -   Spot Instances
-    -   Reserved Instances
-    -   Dedicated Instanes
+-  #### Instances
+-   Ondemand Instance
+-   Spot Instances
+-   Reserved Instances
+-   Dedicated Instanes
 
-    #### Images
-    -   AMI
-    #### Storage 
-    -   EBS
-    -   Snapshots
+-  #### Images
+-   AMI
+-  #### Storage 
+-   EBS
+-   Snapshots
 
 
 
