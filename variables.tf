@@ -19,5 +19,5 @@ variable "pvt-1" {
 
 # Public Subnet 2
 variable "pvt-2" {
-  default = "172.16.0.196/26"
+  default = "172.16.0.192/26"
 }
