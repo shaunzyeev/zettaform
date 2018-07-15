@@ -4,7 +4,7 @@ resource "aws_vpc" "main" {
   cidr_block = "${var.main_cidr}"
 
   tags {
-    Name = "CPAWS"
+    Name = "zettaform"
   }
 }
 
@@ -122,7 +122,7 @@ resource "aws_default_route_table" "default" {
     nat_gateway_id = "${aws_nat_gateway.main-nat.id}"
   }
 
-  tags {
-    Name = "default table"
-  }
+  # tags {
+  #   Name = "default table"
+  # }
 }
