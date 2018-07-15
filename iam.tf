@@ -31,13 +31,11 @@ resource "aws_iam_user" "zfadmin" {
   name = "zfadmin"
 }
 
-## Attach IAM policy to the zfadmin user
-
+## Attach IAM policy
 resource "aws_iam_policy_attachment" "zfadmin" {
-  name = "ec2-admin"
-
-  #   users      = ["${aws_iam_user.zfadmin.name}"]
-  groups     = ["${aws_iam_group.cpgroup.name}"]
+  name       = "ec2-admin"
+  roles      = ["${aws_iam_role.ec2-access.name}"]   # Adding Roles
+  groups     = ["${aws_iam_group.cpgroup.name}"]     # Adding Groups
   policy_arn = "${aws_iam_policy.EC2-FullAcces.arn}"
 }
 
@@ -53,7 +51,7 @@ resource "aws_iam_group_membership" "cpgroup" {
 
 resource "aws_iam_role" "ec2-access" {
   name        = "ec2-access"
-  description = "Roles for the EC2 instances"
+  description = "EC2 instances Roles"
 
   assume_role_policy = <<EOF
 {
@@ -70,11 +68,4 @@ resource "aws_iam_role" "ec2-access" {
   ]
 }
 EOF
-}
-
-## Role Policy Attachment
-
-resource "aws_iam_role_policy_attachment" "ec2-access" {
-  role       = "${aws_iam_role.ec2-access.name}"
-  policy_arn = "${aws_iam_policy.EC2-FullAcces.arn}"
 }
