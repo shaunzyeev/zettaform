@@ -2,13 +2,21 @@
 
 # External Access
 resource "aws_security_group" "externalAccess" {
-  name   = "external-access"
-  vpc_id = "${aws_vpc.main.id}"
+  name        = "external-access"
+  description = "External Access"
+  vpc_id      = "${aws_vpc.main.id}"
 
   ingress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
@@ -18,13 +26,18 @@ resource "aws_security_group" "externalAccess" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
+
+  tags {
+    Name = "webaccess-list"
+  }
 }
 
 # Internal Access
 
 resource "aws_security_group" "internalAccess" {
-  name   = "internal-access"
-  vpc_id = "${aws_vpc.main.id}"
+  name        = "internal-access"
+  description = "Inetrnal VPC access"
+  vpc_id      = "${aws_vpc.main.id}"
 
   ingress {
     from_port   = 0
@@ -38,5 +51,9 @@ resource "aws_security_group" "internalAccess" {
     to_port     = 0
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  tags {
+    Name = "Internalacess-list"
   }
 }
