@@ -1,7 +1,8 @@
 # Create VPC
 
 resource "aws_vpc" "main" {
-  cidr_block = "${var.main_cidr}"
+  cidr_block           = "${var.main_cidr}"
+  enable_dns_hostnames = true
 
   tags {
     Name = "zettaform"
