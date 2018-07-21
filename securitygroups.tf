@@ -28,7 +28,7 @@ resource "aws_security_group" "externalAccess" {
   }
 
   tags {
-    Name = "webaccess-list"
+    Name = "web-access-list"
   }
 }
 
@@ -54,6 +54,6 @@ resource "aws_security_group" "internalAccess" {
   }
 
   tags {
-    Name = "Internalacess-list"
+    Name = "Internal-access-list"
   }
 }
