@@ -19,7 +19,10 @@
 -  DHCP
 -  DNS
 -  Endpoint
--  VPN
+-  VPN 
+    - Customer Gateway          # Todo
+    - Virtual Private Gateway   # Todo
+    - VPN Connections           # Todo
 -  EIP
 
 ## IAM
