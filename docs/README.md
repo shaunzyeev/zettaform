@@ -36,10 +36,19 @@
 -  Policy Generator
 -  Encryption Keys ( KMS )
 
-## EC2
 
-### Instances
+## Computing: EC2, Lambda, ECS
+
+### EC2 
 -   Ondemand Instance
+    - AMI
+    - Instance Type
+    - VPC
+    - Subnet
+    - Public IP
+    - EBS
+    - Key-pair
+
 -   Spot Instances
 -   Reserved Instances
 -   Dedicated Instanes
@@ -49,6 +58,11 @@
 ### Storage 
 -   EBS
 -   Snapshots
+
+### Loadbalancer
+-   ALB
+-   CLB
+-   NLB
 
 
 
