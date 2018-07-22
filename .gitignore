@@ -1,7 +1,7 @@
 .terraform
 .tfvars
 .git
-.pem
+*.pem
 main.tf
 *.backup
 *.tfstate
