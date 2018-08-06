@@ -18,7 +18,7 @@
 
 - Once Verified 
 ``` 
-terraform apply 
+# terraform apply 
 ```
 
 
