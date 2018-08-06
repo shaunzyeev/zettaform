@@ -1,6 +1,6 @@
 # Configure and deploy Application in AWS by terraform
 
-### Install Terraform
+## Install Terraform
 
 - Download from the https://www.terraform.io/downloads.html
 - Install into a specific location
@@ -14,7 +14,7 @@
 `terraform apply`
 
 
-### Refere this document for further resourse.
+## Refere this document for further resourse.
 
 https://www.terraform.io/docs/providers/aws/
 
