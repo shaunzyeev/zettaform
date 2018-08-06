@@ -7,9 +7,16 @@
 - Create the zettaform directory
 - Add the auth.tf file 
 - Run this command 
-`terraform init`
+
+```
+terraform init
+```
+
 - Once main.tf created 
-`terraform plan`
+```
+terraform plan
+```
+
 - Once Verified 
 `terraform apply`
 
