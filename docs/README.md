@@ -54,16 +54,39 @@
 -   Dedicated Instanes
 
 ### Images
--   AMI
+-   AMI ( Private and Public )
 ### Storage 
 -   EBS
 -   Snapshots
 
 ### Loadbalancer
 -   ALB
--   CLB
+  - Target Groups
+  - Listners
+  - L7 Rules based on host or path header. 
 -   NLB
 
+### Auto Scalling 
+    - Scalling group
+    - Launch configuration 
+    - Scalling policy based
+
+## Route 53 
+- Hosted zone
+- Record sets
+    - A
+    - CNAME
+    - NS
+    - MX
+    - TXT
+    - Alias ( A/CNAME )
+- Subdomain
+- DNS Routing Policy 
+
+## Cloud Watch 
+
+### SNS
+### SES
 
 
 
