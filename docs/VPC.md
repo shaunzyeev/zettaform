@@ -1,6 +1,8 @@
-# VPC
+# VPC [ Virtual Private Compute ]
 
-- CIDR
+!Screenshot(vpc-reference-nat-instances.png)
+
+- CIDR/IP Address [Classless Inter-Domain Routing]
 - Subnets
 - IGW
 - Route Tables
