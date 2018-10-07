@@ -3,7 +3,7 @@
 - Virtual computing environments, known as instances
 - Preconfigured templates for your instances, known as Amazon Machine Images (AMIs), that package the bits you need for your server (including the operating system and additional software)
 - Various configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types
-  - ![Screenshot](instance-type.png)
+  ![Screenshot](instance-type.png)
 - Secure login information for your instances using key pairs (AWS stores the public key, and you store the private key in a secure place)
 - Storage volumes for temporary data that's deleted when you stop or terminate your instance, known as instance store volumes
 - Persistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS), known as Amazon EBS volumes
