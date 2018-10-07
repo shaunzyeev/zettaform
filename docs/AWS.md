@@ -22,4 +22,4 @@
 - **125** Edge Locations
 - 11 Regional Edge Caches
 - 62 cities across 29 countries
-  ![Screenshot](CloudFront-Edge-Locations.png.png)
+  ![Screenshot](CloudFront-Edge-Locations.png)
