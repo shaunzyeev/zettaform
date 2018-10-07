@@ -13,9 +13,7 @@
 - Isolated from failures in other Availability Zones
 - **Max 6 and minimum 2 AZ**
 - Named as: a b c
-  - us-east-1a
-  - us-east-1b
-  - us-east-1f
+- eg: us-east-1a us-east-1b us-east-1f
 
 ### Edge Locations
 
