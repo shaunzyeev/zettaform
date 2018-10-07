@@ -1,6 +1,6 @@
 # VPC [ Virtual Private Compute ]
 
-!Screenshot(vpc-reference-nat-instances.png)
+![Screenshot](vpc-reference-nat-instances.png)
 
 - CIDR/IP Address [Classless Inter-Domain Routing]
 - Subnets
