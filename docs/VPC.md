@@ -19,3 +19,4 @@ A virtual private cloud (VPC) is a virtual network dedicated to your AWS account
 - DHCP: Provides IP, Time and Domain to the ec2 instances.
 - DNS:
 - VPC Peering:
+- VPC Endpoints
