@@ -6,6 +6,7 @@
 - Consist of at least two Availability Zones
 - **16** AWS Regions
 - eg: North Virginia - us-east-1
+  ![Screenshot](aws-regions.png)
 
 ### Availability Zones
 
