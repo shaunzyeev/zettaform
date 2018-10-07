@@ -14,22 +14,15 @@
 
 ---
 
-###
-
 ### Instance Type
 
 ![Screenshot](instance-type.png)
 
+---
+
 ### AMI
 
-### Storge
+### Elastic Block Storge
 
-#### EBS
-
-     - magnetic
-     - gp2
-     - provisoned IOPS
-
-### Placement groups
-
-### Ssh Keys
+General Purpose SSD | Provisioned IOPS SSD (io1) | Throughput Optimized HDD (st1) | Cold HDD (sc1)
+![Screenshot](ebs-matrix.png)
