@@ -1,6 +1,6 @@
-VPC Security Groups:
+### VPC Security Groups:
 
-https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html
-https://docs.aws.amazon.com/vpc/latest
+- https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html
+- https://docs.aws.amazon.com/vpc/latest
 
-Subneting Tool: http://jodies.de/ipcalc
+- Subneting Tool: http://jodies.de/ipcalc
