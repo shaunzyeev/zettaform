@@ -20,11 +20,23 @@
 
 ---
 
+### Typ of instances
+
 ### AMI
+
+![Screenshot](ami-cat.png)
+
+### ENI
 
 ### Elastic Block Storge
 
 General Purpose SSD | Provisioned IOPS SSD (io1) | Throughput Optimized HDD (st1) | Cold HDD (sc1)
 ![Screenshot](ebs-matrix.png)
+
+### Volumes
+
+### Snapshots
+
+### Volume Manager
 
 ###
