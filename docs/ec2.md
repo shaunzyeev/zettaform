@@ -20,7 +20,13 @@
 
 ---
 
-### Typ of instances
+### Instances catagories
+
+- **Ondemand** Instances
+- **Spot** Instances
+- **Reserve** Instances
+- **Dedicated** Host
+- **Scheduled** instances
 
 ### AMI
 
