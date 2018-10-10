@@ -18,15 +18,22 @@
 
 ![Screenshot](instance-type.png)
 
+#### T3 Instance Details
+
+![Screenshot](t3-instance.png)
+
 ---
 
-### Instances catagories
+### Instances Purchase Options
 
-- **Ondemand** Instances
-- **Spot** Instances
+- **Ondemand** Instances : Pay as you go hour ( seconds )
+- **Spot** Instances :
 - **Reserve** Instances
 - **Dedicated** Host
 - **Scheduled** instances
+-
+
+### Placemenent groups
 
 ### AMI
 

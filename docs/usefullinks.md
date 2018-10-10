@@ -10,7 +10,8 @@
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ComponentsAMIs.html
-- https://aws.amazon.com/ec2/instance-types/
+- https://aws.amazon.com/ec2/instance-types/i3/
+- https://aws.amazon.com/ec2/instance-types/t3/
 
 ---
 
