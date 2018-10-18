@@ -27,7 +27,7 @@
 ### Instances Purchase Options
 
 - **Ondemand** Instances : Pay as you go hour ( seconds )
-- **Spot** Instances :
+- **Spot** Instances : spare compute capacity in the AWS cloud available to you at steep discounts.
 - **Reserve** Instances
 - **Dedicated** Host
 - **Scheduled** instances
@@ -52,4 +52,6 @@ General Purpose SSD | Provisioned IOPS SSD (io1) | Throughput Optimized HDD (st1
 
 ### Volume Manager
 
-###
+### Userdata
+
+`#!/bin/bash cd /tmp mkdir zf echo "Test file" > index.html`
