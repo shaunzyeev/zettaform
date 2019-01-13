@@ -23,7 +23,7 @@ resource "aws_internet_gateway" "main-gw" {
 resource "aws_subnet" "pub-1" {
   vpc_id            = "${aws_vpc.main.id}"
   cidr_block        = "${var.pub-1}"
-  availability_zone = "ap-southeast-1a"
+  availability_zone = "${var.region}-1a"
 
   tags {
     Name = "Pub-1"
@@ -33,7 +33,7 @@ resource "aws_subnet" "pub-1" {
 resource "aws_subnet" "pub-2" {
   vpc_id            = "${aws_vpc.main.id}"
   cidr_block        = "${var.pub-2}"
-  availability_zone = "ap-southeast-1b"
+  availability_zone = "${var.region}-1b"
 
   tags {
     Name = "Pub-2"
@@ -71,7 +71,7 @@ resource "aws_route_table_association" "pub-2" {
 resource "aws_subnet" "pvt-1" {
   vpc_id            = "${aws_vpc.main.id}"
   cidr_block        = "${var.pvt-1}"
-  availability_zone = "ap-southeast-1a"
+  availability_zone = "${var.region}-1a"
 
   tags {
     Name = "Pvt-1"
@@ -81,7 +81,7 @@ resource "aws_subnet" "pvt-1" {
 resource "aws_subnet" "pvt-2" {
   vpc_id            = "${aws_vpc.main.id}"
   cidr_block        = "${var.pvt-2}"
-  availability_zone = "ap-southeast-1b"
+  availability_zone = "${var.region}-1b"
 
   tags {
     Name = "Pvt-2"

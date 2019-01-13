@@ -21,3 +21,8 @@ variable "pvt-1" {
 variable "pvt-2" {
   default = "172.16.0.192/26"
 }
+
+##region 
+variable "region" {
+  default = "us-east"
+}
