@@ -2,11 +2,11 @@
 
 ### What is Cloud ?
 
-### Introduction to Cloud.
+# Introduction to Cloud.
 
 ### About AWS ( Amazon Web Service)
 
-## VPC
+# VPC
 
 - IP Address
 - VPC
@@ -25,7 +25,7 @@
   - VPN Connections # Todo
 - EIP
 
-## IAM
+# IAM
 
 - Groups
 - Users
@@ -36,12 +36,11 @@
 - Policy Generator
 - Encryption Keys ( KMS )
 
-## Computing: EC2, Lambda, ECS
+# Computing: EC2, Lambda, EKS, ECS, Beanstalk, Batch
 
-### EC2
+# EC2
 
 - Ondemand Instance
-
   - AMI
   - Instance Type
   - VPC
@@ -54,32 +53,46 @@
 - Reserved Instances
 - Dedicated Instanes
 
-### Images
+- ### Autoscalling
+  - Configuration Templates
+  - Scale out
+  - Scale in
+  - Cloud watch matrics and relations
+  
+- ssm
+
+  - Document 
+  - Session
+  - Patching
+  - Inventory
+  
+
+# Images and Snaphots
 
 - AMI ( Private and Public )
+- Snapshots
 
-### Storage
+# Storage
 
 - EBS
 - EFS
 - S3
-- Snapshots
 
-### Loadbalancer
+# Loadbalancer
 
 - ALB
 - NLB
 - Target Groups
 - Listners
-- L7 Rules based on host or path header.
+- L7 Policies
 
-### Auto Scalling
+# Auto Scalling
 
 - Scalling group
 - Launch configuration
 - Scalling policy based
 
-## Route 53
+# Route 53 [ DNS ]
 
 - Hosted zone
 - Record sets
@@ -92,10 +105,44 @@
 - Subdomain
 - DNS Routing Policy
 
-## Cloud Watch
+# Cloud Watch
+ - Metrics
+ - Logs
+ - Alerts
+ - Custome Metrics
+ - Dashboard
 
-### SNS
+# SNS [Notification]
+ - Topics
+ - Subscriptions
 
-### SES
+# SES [ Email ]
+ - Email
+ - SMTP
+ - Domain
+ 
+# Cloudfront
+ - Distribution 
+ - Custome Domian
 
-### Cloudfront
+# Elastic Cache
+ - Redis
+ - Redis Cluster
+ 
+# Database
+ - RDS 
+   - MySQL
+   - MSSQL
+   - POSTGRES
+   - MariaDB
+   - Aurora
+ - DynamoDB
+ - DocumentDB
+ 
+ # SQS
+  - Topics
+ 
+ # CLI and SDK
+  - awscli
+  - SDK ( python )
+  
