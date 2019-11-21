@@ -9,7 +9,7 @@
  - Regions
  - Availablity Zones
  - Edge Location
- - Global Servics
+ - Global Services
 
 
 # VPC
