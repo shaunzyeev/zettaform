@@ -1,8 +1,6 @@
-# AWS Course Structure
-
-### What is Cloud ?
-
 # Introduction to Cloud.
+
+-  What is Cloud ?
 
 # About AWS ( Amazon Web Service)
 
