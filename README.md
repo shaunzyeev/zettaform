@@ -4,7 +4,13 @@
 
 # Introduction to Cloud.
 
-### About AWS ( Amazon Web Service)
+# About AWS ( Amazon Web Service)
+
+ - Regions
+ - Availablity Zones
+ - Edge Location
+ - Global Servics
+
 
 # VPC
 
@@ -45,9 +51,12 @@
   - Instance Type
   - VPC
   - Subnet
-  - Public IP
+  - Public IP / EIP
   - EBS
   - Key-pair
+  - ENI
+  - **userdata**
+ 
 
 - Spot Instances
 - Reserved Instances
@@ -144,8 +153,19 @@
  
  # SQS
   - Topics
- 
- # CLI and SDK
+  
+ # Codecommit
+  - Access Control
+  - SSH vs HTTPS access
+  - Git Repo
+  
+ # IAC, CLI and SDK
   - awscli
   - SDK ( python )
+  - Terraform 
+  - Cloudformation Template
+  
+ # LAB and TEST
+ 
+ 
   
