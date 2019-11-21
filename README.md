@@ -38,7 +38,7 @@
 
 # Computing: EC2, Lambda, EKS, ECS, Beanstalk, Batch
 
-# EC2
+## EC2
 
 - Ondemand Instance
   - AMI
@@ -53,14 +53,13 @@
 - Reserved Instances
 - Dedicated Instanes
 
-- ### Autoscalling
+- **Autoscalling**
   - Configuration Templates
   - Scale out
   - Scale in
   - Cloud watch matrics and relations
   
-- ssm
-
+- **SSM**
   - Document 
   - Session
   - Patching
@@ -104,7 +103,11 @@
   - Alias ( A/CNAME )
 - Subdomain
 - DNS Routing Policy
-
+# ACM
+ - Private Certificate
+ - Public Certificate
+ - Certificate for Cloudfront
+ 
 # Cloud Watch
  - Metrics
  - Logs
