@@ -84,15 +84,15 @@
 
 # Storage
 
-- EBS
+- EBS [ Block Storage ]
  - GP2
  - Provisoned IOPS
  
-- EFS
+- EFS [ File Storage ]
  - Provissioned Throuput
  - MaxIO/Standard
  
-- S3
+- S3 [ Object Storage ]
 
 # Loadbalancer
 
