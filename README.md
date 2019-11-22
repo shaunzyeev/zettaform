@@ -154,7 +154,7 @@
  - DocumentDB
  
  # SQS
-  - Topics
+  - Queues Types
   
  # Codecommit
   - Access Control
