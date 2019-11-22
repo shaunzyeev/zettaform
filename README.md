@@ -168,6 +168,12 @@
   - Cloudformation Template
   
  # LAB and TEST
+  - Examples
+    - Script
+    - Application Deployment
+    - Teraform Code 
+    - Lambda python script
+
  
  
   
