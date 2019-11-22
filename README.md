@@ -85,16 +85,23 @@
 # Storage
 
 - EBS
+ - GP2
+ - Provisoned IOPS
+ 
 - EFS
+ - Provissioned Throuput
+ - MaxIO/Standard
+ 
 - S3
 
 # Loadbalancer
 
-- ALB
-- NLB
+- ALB [ Application Load Balancer ]
+- NLB [Network Load Balancer ]
 - Target Groups
 - Listners
 - L7 Policies
+- Certificate and SNI
 
 # Auto Scalling
 
@@ -114,10 +121,11 @@
   - Alias ( A/CNAME )
 - Subdomain
 - DNS Routing Policy
+
 # ACM
  - Private Certificate
- - Public Certificate
- - Certificate for Cloudfront
+ - Public Certificate [ ssl public encryption ]
+ - Certificate for Cloudfront. 
  
 # Cloud Watch
  - Metrics
