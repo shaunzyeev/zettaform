@@ -12,7 +12,11 @@
 
 # VPC
 
-- IP Address
+- **IP Address**
+  - Private IP
+  - Public IP
+  - CIDR
+  - Subneting 
 - VPC
 - Subnet
 - Routing Table
