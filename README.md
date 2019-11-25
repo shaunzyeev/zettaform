@@ -1,8 +1,8 @@
 # Introduction to Cloud.
 
--  What is Cloud ?
+- **What is Cloud ?**
 
-# About AWS ( Amazon Web Service)
+# [About AWS](docs/awsintro.md)
 
  - Regions
  - Availablity Zones
