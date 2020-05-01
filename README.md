@@ -10,7 +10,7 @@
  - Global Services
 
 
-# VPC
+# [VPC](docs/vpc.md)
 
 - **IP Address**
   - Private IP
@@ -33,7 +33,7 @@
   - VPN Connections # Todo
 - EIP
 
-# IAM
+# [IAM]](docs/iam.md)
 
 - Groups
 - Users
@@ -46,7 +46,7 @@
 
 # Computing: EC2, Lambda, EKS, ECS, Beanstalk, Batch
 
-## EC2
+## [EC2](docs/ec2.md)
 
 - Ondemand Instance
   - AMI
